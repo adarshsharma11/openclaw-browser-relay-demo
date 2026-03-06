@@ -1,0 +1,17 @@
+{
+  "name": "broswer-relay",
+  "version": "1.0.0",
+  "description": "OpenClaw style browser relay for Chrome automation",
+   "main": "relay.js",
+  "scripts": {
+    "gateway": "node gateway.js",
+    "relay": "node relay.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chrome-remote-interface": "^0.34.0",
+    "express": "^5.2.1",
+    "puppeteer": "^24.38.0",
+    "ws": "^8.19.0"
+  }
+}
